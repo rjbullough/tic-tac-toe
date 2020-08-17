@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.grid div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.winner-message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: blueviolet;
+    margin: 2em;
+}
